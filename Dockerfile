@@ -19,6 +19,6 @@ ADD script.sh                      script.sh
 #BROWSER
 #HUB_HOST
 #MODULE
-ENTRYPOINT sh healthcheck.sh            
+ENTRYPOINT sh script.sh            
 
 
