@@ -15,7 +15,7 @@ pipeline {
         stage('Build Image') {
             steps {
                 script {
-                	app = docker.build("ilanmg/new-artlist-docker-selenium")
+                	app = docker.build("ilanmg/selenium-docker")
                 }
             }
         }
