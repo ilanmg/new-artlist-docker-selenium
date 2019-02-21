@@ -1,7 +1,7 @@
 pipeline {
     agent none
     stages {
-        stage('Build Jar') {
+        stage('Build ilan Jar') {
             agent {
                 docker {
                     image 'maven:3-alpine'
