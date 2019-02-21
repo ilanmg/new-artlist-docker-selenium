@@ -14,11 +14,11 @@ ADD target/libs                         libs
 ADD Sanity.xml                          Sanity.xml
 
 #ADD health check script
-ADD script.sh                      script.sh
+ADD healthcheck.sh                      healthcheck.sh
 
 #BROWSER
 #HUB_HOST
 #MODULE
-ENTRYPOINT sh script.sh            
+ENTRYPOINT sh healthcheck.sh            
 
 
