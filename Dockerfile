@@ -14,7 +14,7 @@ ADD target/libs                         libs
 ADD Sanity.xml                          Sanity.xml
 
 #ADD health check script
-ADD healthcheck.sh                      healthcheck.sh
+ADD script.sh                      script.sh
 
 #BROWSER
 #HUB_HOST
